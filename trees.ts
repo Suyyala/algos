@@ -19,7 +19,7 @@ Example
 output = 4 (8, 3, 1, 4) 
 
 */
-
+() => {
 // Definition for a binary tree node
 function TreeNode(val) {
     this.val = val;
@@ -158,3 +158,4 @@ console.log(output_2);
 check(expected_2, output_2);
 
 console.log();
+}
